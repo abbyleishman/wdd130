@@ -7,6 +7,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: white;
@@ -31,21 +32,33 @@ main {
 }
 .home-title {
     color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .book, .join {
     color: black;
     background-color: #baa898;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     color: #baa898;
     background-color: black;
+    font-size: 18px;
+    padding: 15px 30px;
 }
 .msg h2 {
     color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: white;
@@ -58,23 +71,44 @@ footer a:hover {
     color: #bfd7ea;
 }
 #hero-image .icon {
-    width: 80px;
+    width: 80px; 
 }
-body{
-    background-image: white;
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #bfd7ea;
 }
 .msg { 
     background-color: #839788;
+    line-height: 1.5em;
+    font-size: .8em;
+    padding: 35px;
 }
 footer {
     background-color:#baa898;
+    padding: 25px 50px;
+    margin-top: 200px
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+h2 {
+    margin: 0;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+} 
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
