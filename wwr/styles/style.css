@@ -15,6 +15,7 @@ nav a:hover {
 }
 h1 {
     text-align: center;
+
 }
 h4 {
     text-align: center;
@@ -31,7 +32,7 @@ main {
     background-color: #bfd7ea;
 }
 .home-title {
-    color: black;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
     margin-top: 10px;
@@ -180,6 +181,21 @@ footer {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 40px;
+    margin-top: 50px;
+     
+  }
+
+  .rivers-grid {
+    font-size:0.75em;
+  }
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
