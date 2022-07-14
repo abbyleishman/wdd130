@@ -167,11 +167,11 @@ footer {
     text-align: center;
     color: white;
 }
-
-  /* Top left text */
-.top-left {
+/* Bottom left text */
+.bottom-left {
     position: absolute;
-    top: 8px;
+    bottom: 8px;
     left: 16px;
     color: white;
-}
+  }
+  
