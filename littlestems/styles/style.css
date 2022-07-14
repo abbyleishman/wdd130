@@ -137,15 +137,7 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-.card-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}
-.card-img {
-    border: 10px solid #d9c2a3;
-    transition: transform .5s;
    
-}
 .msg {
     background-color: #6f7364;
     padding: 35px;
